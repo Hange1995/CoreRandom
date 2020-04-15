@@ -32,4 +32,10 @@ public class LambdaDemo {
             printer.print("hello world");
 
         }
+
+    public static void main(String[] args) {
+        Printer printer = (String a) -> System.out.println(a);
+        printer.print("hello world");
     }
+    }
+
