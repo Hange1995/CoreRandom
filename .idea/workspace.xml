@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="25a923d5-49d1-4afa-87c8-87ef431f1f70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core/com/algorithms/FindRepeat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core/com/algorithms/FindRepeat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/ArraySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/FindRepeat.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,20 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxAeraIsland2">
+  <component name="RunManager" selected="Application.ATM">
+    <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designPattern.chainDP.ATM" />
+      <module name="Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designPattern.chainDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.CountIsland" />
       <module name="Core" />
@@ -61,19 +71,6 @@
     </configuration>
     <configuration name="DetectCycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.DetectCycleLinkedList" />
-      <module name="Core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.FindRepeat" />
       <module name="Core" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATM" />
         <item itemvalue="Application.MaxAeraIsland2" />
         <item itemvalue="Application.MaxAreaIsland" />
         <item itemvalue="Application.CountIsland" />
         <item itemvalue="Application.DetectCycleLinkedList" />
-        <item itemvalue="Application.FindRepeat" />
       </list>
     </recent_temporary>
   </component>
@@ -158,11 +155,11 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="458" y="202" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.812@0.23.1440.812" timestamp="1584802832495" />
-    <state x="533" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1587143155583">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="533" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1587340811603">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="533" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1584640553771" />
-    <state x="533" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1584650234008" />
+    <state x="533" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1587340811603" />
     <state x="533" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.812@0.23.1440.812" timestamp="1587143155583" />
     <state x="533" y="145" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1587081706543" />
     <state x="533" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.816@0.23.1440.816" timestamp="1586881628359" />
@@ -185,45 +182,45 @@
     </state>
     <state x="477" y="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.812@0.23.1440.812" timestamp="1584713411122" />
     <state x="477" y="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.816@0.23.1440.816" timestamp="1584840004065" />
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1587265518960">
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1587344175194">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1358" height="243" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586195400655" />
     <state width="1358" height="243" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1586191276262" />
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1587265518960" />
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1587344175194" />
     <state width="1358" height="243" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1587143258481" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1587084315725" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1586883602764" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1586967089956" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1586916413090" />
-    <state width="1358" height="196" key="GridCell.Tab.0.center" timestamp="1587265518959">
+    <state width="1358" height="196" key="GridCell.Tab.0.center" timestamp="1587344175192">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1358" height="243" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1586195400654" />
     <state width="1358" height="243" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1586191276261" />
-    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1587265518959" />
+    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1587344175192" />
     <state width="1358" height="243" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1587143258480" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1587084315724" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1586883602763" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1586967089955" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1586916413089" />
-    <state width="1358" height="196" key="GridCell.Tab.0.left" timestamp="1587265518958">
+    <state width="1358" height="196" key="GridCell.Tab.0.left" timestamp="1587344175191">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1358" height="243" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1586195400654" />
     <state width="1358" height="243" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1586191276261" />
-    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1587265518958" />
+    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1587344175191" />
     <state width="1358" height="243" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1587143258479" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1587084315723" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1586883602762" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1586967089955" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1586916413089" />
-    <state width="1358" height="196" key="GridCell.Tab.0.right" timestamp="1587265518959">
+    <state width="1358" height="196" key="GridCell.Tab.0.right" timestamp="1587344175192">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1358" height="243" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1586195400655" />
     <state width="1358" height="243" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1586191276262" />
-    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1587265518959" />
+    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1587344175192" />
     <state width="1358" height="243" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1587143258480" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1587084315724" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1586883602763" />
