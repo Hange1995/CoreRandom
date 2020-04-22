@@ -3,11 +3,15 @@ package cup;
 import java.util.Scanner;
 
 public class Cup {
-    private double weight;
+    public double weight;
     private Lid lid;
 
 //    public Cup() {
 //    }
+
+
+    public Cup() {
+    }
 
     public Cup(double weight, Lid lid) {
         this.weight = weight;
@@ -30,13 +34,15 @@ public class Cup {
         this.lid = lid;
     }
 
-    public void daoShui(int volume,int volumewaste) {
+    public void daoShui() {
 //        Scanner scanner = new Scanner(System.in);
 //        int volume = scanner.nextInt();
 //        int volumewaste = scanner.nextInt();
-        int volumeremain = volume - volumewaste;
-        System.out.println(volume);
-        System.out.println(volumeremain);
-        System.out.println(volumewaste);
+//        int volumeremain = volume - volumewaste;
+//        System.out.println(volume);
+//        System.out.println(volumeremain);
+//        System.out.println(volumewaste);
+        System.out.println("DaoShui");
     }
+
 }

@@ -7,6 +7,5 @@ public class Test {
         System.out.println("杯子的颜色是" + lid2.getColor());
         lid2.setShape("square");
         Cup cup1 = new Cup(10,lid1);
-        cup1.daoShui(100,60);
     }
 }
