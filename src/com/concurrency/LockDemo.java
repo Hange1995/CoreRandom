@@ -2,11 +2,10 @@ package com.concurrency;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class LockDemo {
     public static void show(){
-    DownLoadStatusLock downloadStatus= new DownLoadStatusLock();
+    DownLoadStatusSyn downloadStatus= new DownLoadStatusSyn();
     List<Thread> threads=new ArrayList<>();
         for (int i =0;i<10;i++){
         Thread thread = new Thread(new DownLoadFileTaskLock(downloadStatus));

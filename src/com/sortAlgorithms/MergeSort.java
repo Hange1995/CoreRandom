@@ -20,6 +20,7 @@ public class MergeSort {
         merge(a,left,right);
         return a;
     }
+
     public void merge(int[] a, int[]left ,int[]right){
         int i=0;
         int j=0;

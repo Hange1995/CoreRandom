@@ -1,9 +1,9 @@
 package com.concurrency;
 
 public class DownLoadFileTaskLock implements Runnable {
-    private DownLoadStatusLock downloadStatus;
+    private DownLoadStatusSyn downloadStatus;
 
-    public DownLoadFileTaskLock(DownLoadStatusLock downloadStatus) {
+    public DownLoadFileTaskLock(DownLoadStatusSyn downloadStatus) {
         this.downloadStatus = downloadStatus;
     }
 
@@ -19,7 +19,7 @@ public class DownLoadFileTaskLock implements Runnable {
         System.out.println("Download successfully!"+Thread.currentThread().getName());
     }
 
-    public DownLoadStatusLock getDownloadStatus() {
+    public DownLoadStatusSyn getDownloadStatus() {
         return downloadStatus;
     }
 }

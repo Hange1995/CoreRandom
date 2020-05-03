@@ -14,8 +14,9 @@ public class DownLoadFileTaskConfinement implements Runnable {
     @Override
     public void run() {
         System.out.println("Downloading a File Thread :" + Thread.currentThread().getName());
-        for (int i = 0 ; i <10000;i++){
+        for (int i = 0 ; i <10_000;i++){
             if (Thread.currentThread().isInterrupted())return;
+            System.out.println(Thread.currentThread().getName());
             downloadStatus.incrementByte();
         }
         System.out.println("Download successfully!"+Thread.currentThread().getName());

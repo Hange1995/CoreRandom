@@ -27,7 +27,6 @@ public class AnnotationTest {
 
         }
 
-
         Class myParaClass=MyParaReflectionClass.class;
         Method methodParam=myParaClass.getDeclaredMethod("doSomethingElse", String.class);
         Annotation[][] annotation2=methodParam.getParameterAnnotations();
@@ -41,7 +40,6 @@ public class AnnotationTest {
                     System.out.println("param: "+parameterType.getName());
                     System.out.println("name: "+myParaInterface.name());
                     System.out.println("value: "+myParaInterface.value());
-
                 }
             }
         }

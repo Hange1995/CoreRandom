@@ -2,7 +2,7 @@ package com.concurrency;
 
 public class VolatileDemo {
     public static void show(){
-        DownLoadStatusLock downLoadStatusLock = new DownLoadStatusLock();
+        DownLoadStatusSyn downLoadStatusLock = new DownLoadStatusSyn();
         Thread thread1=new Thread(new DownLoadFileTaskLock(downLoadStatusLock));
         Thread thread2= new Thread(()->{
             while (!downLoadStatusLock.isDone()){}

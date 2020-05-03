@@ -3,7 +3,8 @@ package cup;
 import java.util.Scanner;
 
 public class Cup {
-    public double weight;
+    private class ABC{}
+    private double weight=50.0;
     private Lid lid;
 
 //    public Cup() {
@@ -46,3 +47,4 @@ public class Cup {
     }
 
 }
+
