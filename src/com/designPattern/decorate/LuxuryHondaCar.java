@@ -1,6 +1,8 @@
-package com.designPattern;
+package com.designPattern.decorate;
 
-public class LuxuryHondaCar implements HondaCar{
+import com.designPattern.decorate.HondaCar;
+
+public class LuxuryHondaCar implements HondaCar {
 
     @Override
     public void assemble() {

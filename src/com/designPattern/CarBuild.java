@@ -20,4 +20,9 @@ public class CarBuild {
     public Car build(){
         return new Car(this);
     }
+
+
+    public static void main(String[] args) {
+        Car car = new CarBuild("BMW","M3").setColor("Blue").setEngine(6).build();
+    }
 }

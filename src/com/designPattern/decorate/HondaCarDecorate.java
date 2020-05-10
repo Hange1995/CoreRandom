@@ -1,4 +1,6 @@
-package com.designPattern;
+package com.designPattern.decorate;
+
+import com.designPattern.decorate.HondaCar;
 
 public class HondaCarDecorate implements HondaCar {
     protected HondaCar hondaCar;
