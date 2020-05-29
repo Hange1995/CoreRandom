@@ -10,4 +10,9 @@ public class BasicHondaCar implements HondaCar {
         System.out.println("8 Air bag");
         System.out.println("4 Door");
     }
+
+    @Override
+    public int cost() {
+        return 1000;
+    }
 }

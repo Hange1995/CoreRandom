@@ -10,4 +10,9 @@ public class LuxuryHondaCar implements HondaCar {
         System.out.println("4 Door");
         System.out.println("Moon Roof");
     }
+
+    @Override
+    public int cost() {
+        return 3000;
+    }
 }
